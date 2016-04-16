@@ -42,7 +42,7 @@ public class Line {
 			if(two_way){
 				t = new DualTrack(last.getPosition(), s.getPosition(), this.trackColour);
 			} else {
-				t = new Track(last.getPosition(), s.getPosition(), this.trackColour);
+				t = new OneTrack(last.getPosition(), s.getPosition(), this.trackColour);
 			}
 			this.tracks.add(t);
 		}

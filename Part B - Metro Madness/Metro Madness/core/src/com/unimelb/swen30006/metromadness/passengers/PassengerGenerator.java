@@ -11,40 +11,40 @@ public class PassengerGenerator {
 	// The station that passengers are getting on
 	private Station s;
 	// The line they are travelling on
-	private ArrayList<Line> lines;
-	
 	// The max volume
 	private float maxVolume;
-	
-	public PassengerGenerator(Station s, ArrayList<Line> lines, float max){
+
+	public PassengerGenerator(Station s, ArrayList<Line> lines, float max) {
 		this.s = s;
-		this.lines = lines;
 		this.maxVolume = max;
 	}
-	
-	public Passenger[] generatePassengers(){
-		int count = (int) (Math.random()*maxVolume);
+
+	public Passenger[] generatePassengers() {
+		int count = (int) (Math.random() * maxVolume);
 		Passenger[] passengers = new Passenger[count];
-		for(int i=0; i<count; i++){
+		for (int i = 0; i < count; i++) {
 			passengers[i] = generatePassenger();
 		}
 		return passengers;
 	}
-	
-	public Passenger generatePassenger(){
+
+	public Passenger generatePassenger() {
+		// Pick a random line from all lines
+		Line l = allLines.get((int) (Math.random() * (allLines.size() - 1)));
 		// Pick a random station from the line
-		
-		Line l = allLines.get((int) (Math.random()*(allLines.size()-1)));
-		Station s = l.getStations().get((int) (Math.random()*(l.getStations().size()-1)));
-		
-		if (s.getName().equals(this.s.getName())) {
-			generatePassenger();
+		Station destination = l.getStations()
+				.get((int) (Math.random() * (l.getStations().size() - 1)));
+
+		// re-generate if the station is the currentStation or station does not
+		// allow passengers to leave
+		if (destination.equals(this.s) || !destination.passengersCanLeave()) {
+			return generatePassenger();
 		}
-		return this.s.generatePassenger(s);
+		return this.s.generatePassenger(destination);
 	}
-	
+
 	public static void setAllLines(Collection<Line> collection) {
 		allLines = new ArrayList<Line>(collection);
 	}
-	
+
 }

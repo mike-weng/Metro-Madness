@@ -8,16 +8,16 @@ public class Passenger {
 	private Station destination;
 	private float travelTime;
 	private boolean reachedDestination;
-	
-	public Passenger(Station start, Station end){
+
+	public Passenger(Station start, Station end) {
 		this.begining = start;
 		this.destination = end;
 		this.reachedDestination = false;
 		this.travelTime = 0;
 	}
-	
-	public void update(float time){
-		if(!this.reachedDestination){
+
+	public void update(float time) {
+		if (!this.reachedDestination) {
 			this.travelTime += time;
 		}
 	}
@@ -29,12 +29,9 @@ public class Passenger {
 	public Station getDestination() {
 		return destination;
 	}
-	
+
 	public void setReachedDestination(boolean reached) {
 		reachedDestination = reached;
 	}
-	
-	
-	
-	
+
 }
