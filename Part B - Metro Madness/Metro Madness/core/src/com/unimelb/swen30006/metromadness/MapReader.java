@@ -20,6 +20,7 @@ import com.unimelb.swen30006.metromadness.routers.PassengerRouter;
 import com.unimelb.swen30006.metromadness.routers.SimpleRouter;
 import com.unimelb.swen30006.metromadness.stations.Station;
 import com.unimelb.swen30006.metromadness.tracks.Line;
+import com.unimelb.swen30006.metromadness.trains.NormalTrain;
 import com.unimelb.swen30006.metromadness.trains.Train;
 
 public class MapReader {
@@ -61,7 +62,6 @@ public class MapReader {
 				Line l = processLine(e);
 				this.lines.put(l.getName(), l);
 			}
-
 			PassengerGenerator.setAllLines(this.lines.values());
 
 			// Process Trains
@@ -113,7 +113,7 @@ public class MapReader {
 		Station s = this.stations.get(start);
 
 		// Make the train
-		return new Train(l, s, dir, size);
+		return new NormalTrain(l, s, dir, size);
 	}
 
 	private Station processStation(Element e) {
@@ -124,9 +124,10 @@ public class MapReader {
 		boolean canEnter = e.getBoolean("canEnter");
 		boolean canLeave = e.getBoolean("canLeave");
 		String router = e.get("router");
+		String generator = e.get("generator");
 		PassengerRouter r = createRouter(router);
 
-		return new Station(x_loc, y_loc, r, name, maxPax, canEnter, canLeave);
+		return new Station(x_loc, y_loc, r, name, generator, maxPax, canEnter, canLeave);
 	}
 
 	private Line processLine(Element e) {
@@ -151,6 +152,7 @@ public class MapReader {
 		}
 		return null;
 	}
+
 
 	private Color extractColour(Element e) {
 		float red = e.getFloat("red") / 255f;

@@ -11,6 +11,7 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.unimelb.swen30006.metromadness.passengers.Passenger;
 import com.unimelb.swen30006.metromadness.passengers.PassengerGenerator;
+import com.unimelb.swen30006.metromadness.passengers.RandomGenerator;
 import com.unimelb.swen30006.metromadness.routers.PassengerRouter;
 import com.unimelb.swen30006.metromadness.tracks.Line;
 import com.unimelb.swen30006.metromadness.trains.Train;
@@ -33,7 +34,7 @@ public class Station {
 	private PassengerGenerator g;
 	private ArrayList<Passenger> waiting;
 
-	public Station(float x, float y, PassengerRouter router, String name,
+	public Station(float x, float y, PassengerRouter router, String name, String generator,
 			float maxPax, boolean canEnter, boolean canLeave) {
 		this.name = name;
 		this.router = router;
@@ -41,7 +42,7 @@ public class Station {
 		this.lines = new ArrayList<Line>();
 		this.trains = new ArrayList<Train>();
 		this.waiting = new ArrayList<Passenger>();
-		this.g = new PassengerGenerator(this, this.lines, maxPax);
+		this.g = createGenerator(generator, maxPax);
 		this.passengersCanEnter = canEnter;
 		this.passengersCanLeave = canLeave;
 	}
@@ -144,6 +145,14 @@ public class Station {
 	public String toString() {
 		return "Station [position=" + position + ", name=" + name + ", trains="
 				+ trains.size() + ", router=" + router + "]";
+	}
+	
+	/* create the generator according to type */
+	private PassengerGenerator createGenerator(String type, float max) {
+		if (type.equals("random")) {
+			return new RandomGenerator(this, max);
+		}
+		return null;
 	}
 
 	public Passenger generatePassenger(Station s) {

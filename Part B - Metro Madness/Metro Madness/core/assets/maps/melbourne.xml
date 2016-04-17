@@ -8,6 +8,7 @@
 			<x_loc>5200</x_loc>
 			<y_loc>7600</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -17,6 +18,7 @@
 			<x_loc>4840</x_loc>
 			<y_loc>	7320</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -26,6 +28,7 @@
 			<x_loc>4700</x_loc>
 			<y_loc>7140</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -35,6 +38,7 @@
 			<x_loc>4400</x_loc>
 			<y_loc>6780</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -44,6 +48,7 @@
 			<x_loc>3800</x_loc>
 			<y_loc>6200</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -53,6 +58,7 @@
 			<x_loc>3400</x_loc>
 			<y_loc>5900</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -62,6 +68,7 @@
 			<x_loc>3400</x_loc>
 			<y_loc>5500</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -71,6 +78,7 @@
 			<x_loc>3200</x_loc>
 			<y_loc>5000</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -80,6 +88,7 @@
 			<x_loc>2800</x_loc>
 			<y_loc>4800</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 			<station>
@@ -89,6 +98,7 @@
 			<x_loc>2240</x_loc>
 			<y_loc>4800</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>	
 		<station>
@@ -98,6 +108,7 @@
 			<x_loc>2240</x_loc>
 			<y_loc>5200</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -107,6 +118,7 @@
 			<x_loc>2800</x_loc>
 			<y_loc>5200</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -116,6 +128,7 @@
 			<x_loc>6200</x_loc>
 			<y_loc>4800</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>		
 		<station>
@@ -125,6 +138,7 @@
 			<x_loc>6800</x_loc>
 			<y_loc>5300</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>		
 		<station>
@@ -134,6 +148,7 @@
 			<x_loc>7200</x_loc>
 			<y_loc>4000</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>		
 		<station>
@@ -143,6 +158,7 @@
 			<x_loc>4400</x_loc>
 			<y_loc>4800</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>	
 		<station>
@@ -152,6 +168,7 @@
 			<x_loc>5000</x_loc>
 			<y_loc>4200</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>	
 		<station>
@@ -161,6 +178,7 @@
 			<x_loc>3800</x_loc>
 			<y_loc>4800</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -170,6 +188,7 @@
 			<x_loc>5000</x_loc>
 			<y_loc>3600</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -179,6 +198,7 @@
 			<x_loc>3400</x_loc>
 			<y_loc>4800</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -188,6 +208,7 @@
 			<x_loc>3400</x_loc>
 			<y_loc>4500</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -197,6 +218,7 @@
 			<x_loc>3400</x_loc>
 			<y_loc>3000</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -206,6 +228,7 @@
 			<x_loc>3400</x_loc>
 			<y_loc>7800</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>	
 		<station>
@@ -215,6 +238,7 @@
 			<x_loc>5800</x_loc>
 			<y_loc>2300</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -224,6 +248,7 @@
 			<x_loc>3950</x_loc>
 			<y_loc>3850</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -233,6 +258,7 @@
 			<x_loc>3950</x_loc>
 			<y_loc>1500</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -242,6 +268,7 @@
 			<x_loc>2240</x_loc>
 			<y_loc>7700</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>		
 		<station>
@@ -251,6 +278,7 @@
 			<x_loc>2240</x_loc>
 			<y_loc>5560</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -260,6 +288,7 @@
 			<x_loc>2440</x_loc>
 			<y_loc>5700</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>	
 		<station>
@@ -269,6 +298,7 @@
 			<x_loc>2440</x_loc>
 			<y_loc>7400</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>	
 		<station>
@@ -278,6 +308,7 @@
 			<x_loc>2240</x_loc>
 			<y_loc>5560</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -287,6 +318,7 @@
 			<x_loc>1200</x_loc>
 			<y_loc>5560</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -296,6 +328,7 @@
 			<x_loc>700</x_loc>
 			<y_loc>6100</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -305,6 +338,7 @@
 			<x_loc>1850</x_loc>
 			<y_loc>5560</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -314,6 +348,7 @@
 			<x_loc>1840</x_loc>
 			<y_loc>4200</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -323,6 +358,7 @@
 			<x_loc>1840</x_loc>
 			<y_loc>4700</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -332,6 +368,7 @@
 			<x_loc>1840</x_loc>
 			<y_loc>4700</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
@@ -341,6 +378,7 @@
 			<x_loc>700</x_loc>
 			<y_loc>4100</y_loc>
 			<router>simple</router>
+			<generator>random</generator>
 			<max_passengers> 100 </max_passengers>
 		</station>
 	</stations>
