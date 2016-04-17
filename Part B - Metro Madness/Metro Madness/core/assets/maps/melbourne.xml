@@ -2,7 +2,8 @@
 
 	<stations>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Hurstbridge</name>
 			<x_loc>5200</x_loc>
 			<y_loc>7600</y_loc>
@@ -10,7 +11,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Eltham</name>
 			<x_loc>4840</x_loc>
 			<y_loc>	7320</y_loc>
@@ -18,7 +20,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Greensborough</name>
 			<x_loc>4700</x_loc>
 			<y_loc>7140</y_loc>
@@ -26,7 +29,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Rosanna</name>
 			<x_loc>4400</x_loc>
 			<y_loc>6780</y_loc>
@@ -34,7 +38,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Fairfield</name>
 			<x_loc>3800</x_loc>
 			<y_loc>6200</y_loc>
@@ -42,7 +47,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Clifton Hill</name>
 			<x_loc>3400</x_loc>
 			<y_loc>5900</y_loc>
@@ -50,7 +56,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>North Richmond</name>
 			<x_loc>3400</x_loc>
 			<y_loc>5500</y_loc>
@@ -58,7 +65,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Jolimont</name>
 			<x_loc>3200</x_loc>
 			<y_loc>5000</y_loc>
@@ -66,7 +74,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Flinders St</name>
 			<x_loc>2800</x_loc>
 			<y_loc>4800</y_loc>
@@ -74,7 +83,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 			<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Southern Cross</name>
 			<x_loc>2240</x_loc>
 			<y_loc>4800</y_loc>
@@ -82,7 +92,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>	
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Flagstaff</name>
 			<x_loc>2240</x_loc>
 			<y_loc>5200</y_loc>
@@ -90,7 +101,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Melbourne Central</name>
 			<x_loc>2800</x_loc>
 			<y_loc>5200</y_loc>
@@ -98,7 +110,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Ringwood</name>
 			<x_loc>6200</x_loc>
 			<y_loc>4800</y_loc>
@@ -106,7 +119,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>		
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Lilydale</name>
 			<x_loc>6800</x_loc>
 			<y_loc>5300</y_loc>
@@ -114,7 +128,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>		
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Belgrave</name>
 			<x_loc>7200</x_loc>
 			<y_loc>4000</y_loc>
@@ -122,7 +137,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>		
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Camberwell</name>
 			<x_loc>4400</x_loc>
 			<y_loc>4800</y_loc>
@@ -130,7 +146,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>	
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Alamein</name>
 			<x_loc>5000</x_loc>
 			<y_loc>4200</y_loc>
@@ -138,7 +155,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>	
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Burnley</name>
 			<x_loc>3800</x_loc>
 			<y_loc>4800</y_loc>
@@ -146,7 +164,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Glen Waverley</name>
 			<x_loc>5000</x_loc>
 			<y_loc>3600</y_loc>
@@ -154,7 +173,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Richmond</name>
 			<x_loc>3400</x_loc>
 			<y_loc>4800</y_loc>
@@ -162,7 +182,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>South Yarra</name>
 			<x_loc>3400</x_loc>
 			<y_loc>4500</y_loc>
@@ -170,7 +191,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Sandringham</name>
 			<x_loc>3400</x_loc>
 			<y_loc>3000</y_loc>
@@ -178,7 +200,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Epping</name>
 			<x_loc>3400</x_loc>
 			<y_loc>7800</y_loc>
@@ -186,7 +209,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>	
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Pakenham</name>
 			<x_loc>5800</x_loc>
 			<y_loc>2300</y_loc>
@@ -194,7 +218,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Caulfield</name>
 			<x_loc>3950</x_loc>
 			<y_loc>3850</y_loc>
@@ -202,7 +227,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Frankston</name>
 			<x_loc>3950</x_loc>
 			<y_loc>1500</y_loc>
@@ -210,7 +236,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Craigieburn</name>
 			<x_loc>2240</x_loc>
 			<y_loc>7700</y_loc>
@@ -218,7 +245,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>		
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>North Melbourne</name>
 			<x_loc>2240</x_loc>
 			<y_loc>5560</y_loc>
@@ -226,7 +254,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Macaulay</name>
 			<x_loc>2440</x_loc>
 			<y_loc>5700</y_loc>
@@ -234,7 +263,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>	
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Upfield</name>
 			<x_loc>2440</x_loc>
 			<y_loc>7400</y_loc>
@@ -242,7 +272,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>	
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>North Melbourne</name>
 			<x_loc>2240</x_loc>
 			<y_loc>5560</y_loc>
@@ -250,7 +281,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Sunshine</name>
 			<x_loc>1200</x_loc>
 			<y_loc>5560</y_loc>
@@ -258,7 +290,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Sydenham</name>
 			<x_loc>700</x_loc>
 			<y_loc>6100</y_loc>
@@ -266,7 +299,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Footscray</name>
 			<x_loc>1850</x_loc>
 			<y_loc>5560</y_loc>
@@ -274,7 +308,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Williamstown</name>
 			<x_loc>1840</x_loc>
 			<y_loc>4200</y_loc>
@@ -282,7 +317,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Newport</name>
 			<x_loc>1840</x_loc>
 			<y_loc>4700</y_loc>
@@ -290,7 +326,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Seaholme</name>
 			<x_loc>1840</x_loc>
 			<y_loc>4700</y_loc>
@@ -298,7 +335,8 @@
 			<max_passengers> 100 </max_passengers>
 		</station>
 		<station>
-			<type>Active</type>
+			<canEnter>true</canEnter>
+			<canLeave>true</canLeave>
 			<name>Werribee</name>
 			<x_loc>700</x_loc>
 			<y_loc>4100</y_loc>
@@ -958,16 +996,94 @@
 
 	<trains>
 		<train>
-			<type>BigPassenger</type>
+			<line>Epping</line>
+			<start>Epping</start>
+			<direction>forward</direction>
+            <size>100</size>
+		</train>
+		<train>
+			<line>Glen Waverley</line>
+			<start>Burnley</start>
+			<direction>forward</direction>
+            <size>100</size>
+		</train>
+		<train>
+			<line>Sandringham</line>
+			<start>Richmond</start>
+			<direction>forward</direction>
+            <size>100</size>
+		</train>
+		<train>
+			<line>Frankston</line>
+			<start>Caulfield</start>
+			<direction>forward</direction>
+            <size>100</size>
+		</train>
+		<train>
+			<line>Werribee</line>
+			<start>Newport</start>
+			<direction>forward</direction>
+            <size>30</size>
+		</train>
+		<train>
+			<line>Williamstown</line>
+			<start>Flinders St</start>
+			<direction>forward</direction>
+            <size>50</size>
+		</train>
+		<train>
 			<line>Hurstbridge</line>
 			<start>Rosanna</start>
 			<direction>forward</direction>
+            <size>10</size>
 		</train>
-		<train>
-			<type>BigPassenger</type>
-			<line>Belgrave</line>
-			<start>Camberwell</start>
-			<direction>forward</direction>
-		</train>
+        <train>
+            <line>Belgrave</line>
+            <start>Camberwell</start>
+            <direction>forward</direction>
+            <size>50</size>
+        </train>
+        <train>
+            <line>Pakenham</line>
+            <start>Melbourne Central</start>
+            <direction>forward</direction>
+            <size>100</size>
+        </train>
+        <train>
+            <line>Alemein</line>
+            <start>Sunshine</start>
+            <direction>forward</direction>
+            <size>90</size>
+        </train>
+        <train>
+            <line>Sydenham</line>
+            <start>Footscray</start>
+            <direction>forward</direction>
+            <size>20</size>
+        </train>
+        <train>
+            <line>Upfield</line>
+            <start>Macaulay</start>
+            <direction>forward</direction>
+            <size>150</size>
+        </train>
+        <train>
+            <line>Craigieburn</line>
+            <start>Flagstaff</start>
+            <direction>forward</direction>
+            <size>50</size>
+        </train>
+        <train>
+            <line>Lilydale</line>
+            <start>Ringwood</start>
+            <direction>backward</direction>
+            <size>100</size>
+        </train>
+         <train>
+            <line>Lilydale</line>
+            <start>Ringwood</start>
+            <direction>backward</direction>
+            <size>100</size>
+        </train>
 	</trains>
 </map>

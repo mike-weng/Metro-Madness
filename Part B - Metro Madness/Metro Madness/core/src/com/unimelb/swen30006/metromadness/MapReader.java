@@ -42,7 +42,7 @@ public class MapReader {
 	public void process() {
 		try {
 			// Build the doc factory
-			FileHandle file = Gdx.files.internal("assets/maps/melbourne.xml");
+			FileHandle file = Gdx.files.internal("maps/melbourne.xml");
 			XmlReader reader = new XmlReader();
 			Element root = reader.parse(file);
 

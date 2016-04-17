@@ -1073,12 +1073,6 @@
             <direction>forward</direction>
             <size>50</size>
         </train>
-        <train>
-            <line>Lilydale</line>
-            <start>Ringwood</start>
-            <direction>backward</direction>
-            <size>100</size>
-        </train>
          <train>
             <line>Lilydale</line>
             <start>Ringwood</start>
